@@ -17,7 +17,7 @@ body {
   max-width: 64%;
   height: 100%;
 }
-.hero-section {
+.hero-div {
   display: inline-block;
   margin: 9px;
 }

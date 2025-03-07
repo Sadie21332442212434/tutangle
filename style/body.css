@@ -11,7 +11,7 @@ main {
 }
 .content-container {
   margin-top: 29px;
-  display: inline-block;
+  display: inline-flex;
   max-height: 700px;
 }
 /*column 1 */
@@ -100,15 +100,101 @@ main {
 /*column 2 */
 .entries {
   display: inline-block;
-  background-color: #f5f5f5;
   min-height: 623px;
   width: 55.55%;
   margin: 0 23px;
   min-height: 623px;
+  h2 {
+    margin: 2px 3px;
+    font-weight: lighter;
+  }
+}
+.choices {
+  display: inline-flex;
+  width: 100%;
+
+  .subscribed {
+    display: inline-block;
+    background-color: #f5f5f5;
+    width: 49%;
+    height: 68px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-top-left-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    .subs-title {
+      margin-left: 101px;
+      margin-top: 12px;
+      font-size: 12px;
+    }
+    .subs-option {
+      margin-top: 13px;
+      margin-left: 9px;
+      margin-right: 9px;
+      .new-entries {
+        display: inline-block;
+        background-color: #49bbd4 !important;
+        width: 49%;
+        height: 29px;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .option-text {
+        margin: 5px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .options {
+        display: inline-block;
+        background-color: #dddddd;
+        width: 49%;
+        height: 29px;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+  }
+  .all-entries {
+    display: inline-block;
+    background-color: #f5f5f5;
+    width: 49%;
+    height: 68px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-top-right-radius: 20px;
+    .entry-title {
+      margin-left: 101px;
+      margin-top: 12px;
+      font-size: 12px;
+    }
+    .entry-option {
+      margin-top: 13px;
+      margin-left: 9px;
+      margin-right: 9px;
+      .option-text {
+        margin: 5px 0;
+        text-align: center;
+        font-size: 12px;
+      }
+      .options {
+        display: inline-block;
+        background-color: #dddddd;
+        width: 49%;
+        height: 29px;
+        border-top-left-radius: 17px;
+        border-top-right-radius: 17px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+  }
 }
 .tutorial {
   display: inline-block;
   width: 17.99%;
-  background-color: black;
   margin: 0;
+  background-color: #f5f5f5;
+  min-height: 623px;
 }
