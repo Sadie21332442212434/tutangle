@@ -7,10 +7,14 @@ main {
 .content {
   margin: 0 auto;
   width: 63%;
+  max-height: 700px;
 }
 .content-container {
   margin-top: 29px;
+  display: inline-block;
+  max-height: 700px;
 }
+/*column 1 */
 .history {
   display: inline-block;
   width: 20.67%;
@@ -93,61 +97,14 @@ main {
     }
   }
 }
-/* .search {
-  display: inline-block;
-  width: 20.67%;
-  margin: 0;
-  .search-title {
-    background-color: #49bbd4;
-    height: 43px;
-    display: inline-block;
-    width: 100%;
-    align-content: center;
-    color: white;
-  }
-  .search-title-text {
-    margin: 0 12px;
-    align-items: center;
-    font-size: 14px;
-  }
-  .recent-searches {
-    display: inline-block;
-    height: 47px;
-    width: 100%;
-    background-color: #f5f5f5;
-
-    .search-history {
-      margin: 13px 12px;
-      height: 47px;
-    }
-    .search-text-box {
-      display: inline-block;
-      margin: 0px;
-      font-size: 11px;
-      width: 63%;
-      line-height: 15px;
-    }
-    .icon {
-      display: inline-block;
-      aspect-ratio: 1 / 1;
-      height: 24px;
-      padding-left: 35px;
-    }
-    .icon-burger {
-      display: inline-block;
-      aspect-ratio: 1 / 1;
-      height: 13px;
-      align-items: center;
-      opacity: 50%;
-      margin-left: 12px;
-    }
-  }
-} */
+/*column 2 */
 .entries {
   display: inline-block;
+  background-color: #f5f5f5;
+  min-height: 623px;
   width: 55.55%;
-  background-color: blueviolet;
   margin: 0 23px;
+  min-height: 623px;
 }
 .tutorial {
   display: inline-block;
