@@ -197,6 +197,13 @@ main {
   min-height: 530px;
   background-color: bisque;
 }
+.information-box {
+  margin-top: 4px;
+  background-color: aquamarine;
+  width: 100%;
+  height: 98px;
+  border-bottom: 1px solid black;
+}
 .tutorial {
   display: inline-block;
   width: 17.99%;
