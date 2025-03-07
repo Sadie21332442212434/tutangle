@@ -112,6 +112,7 @@ main {
 .choices {
   display: inline-flex;
   width: 100%;
+  border-bottom: 2px solid #49bbd4;
 
   .subscribed {
     display: inline-block;
@@ -190,6 +191,11 @@ main {
       }
     }
   }
+}
+.notifications {
+  width: 100%;
+  min-height: 530px;
+  background-color: bisque;
 }
 .tutorial {
   display: inline-block;
